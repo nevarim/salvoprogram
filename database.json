@@ -1,0 +1,13 @@
+{
+    "users": [
+        {
+            "username": "salvo",
+            "password": "hashed_password_here",
+            "role": "admin"
+        }
+    ],
+    "notices": [],
+    "quests": [],
+    "factions": [],
+    "media": []
+}
