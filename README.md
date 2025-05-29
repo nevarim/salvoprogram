@@ -1,29 +1,40 @@
-# Salvo Program
+# ESP32 Web Server Project
 
-## Overview
-This project is a web application designed to run on an ESP32 WROOM module. It provides a main page with various links and integrated systems such as user management, permissions, and a JSON database.
+This project creates a web server on ESP32 WROOM using Arduino, serving a structured website with:
+- Main page
+- Admin section
+- Quest section
+- Factions
+- Herbarium
+- Announcements
+- Multimedia pages (user photo uploads)
 
 ## Features
-1. **Admin Section**: Manage users and permissions.
-2. **Board**: Display notices and events.
-3. **Quest**: Manage quests.
-4. **Factions**: User guild management.
-5. **Media Management**: Users can upload photos and videos.
+- JSON-based data storage
+- Modular HTML templates
+- User-friendly navigation
 
-## User Management
-The admin user is saved with the username 'salvo' and a password.
+## Getting Started
+1. Flash `main.ino` to your ESP32.
+2. Place `database.json` and HTML templates on SPIFFS or LittleFS.
+3. Connect ESP32 to WiFi and access via browser.
 
-## Roadmap
-- [ ] Set up the main page with navigation links.
-- [ ] Implement user management and permissions.
-- [ ] Develop the admin section.
-- [ ] Create the board for notices and events.
-- [ ] Implement quest management.
-- [ ] Develop factions for user guilds.
-- [ ] Set up media management for uploads.
+## Requirements
+- ESP32 WROOM
+- Arduino IDE
+- ArduinoJson library
+- ESPAsyncWebServer library
 
-## Installation
-Instructions on how to set up the project will be provided here.
+## License
+MIT
 
-## Usage
-Details on how to use the application will be provided here.
+
+main.ino
+
+database.json
+
+templates/
+
+README.md
+
+ROADMAP.md

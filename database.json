@@ -1,13 +1,21 @@
 {
-    "users": [
-        {
-            "username": "salvo",
-            "password": "hashed_password_here",
-            "role": "admin"
-        }
-    ],
-    "notices": [],
-    "quests": [],
-    "factions": [],
-    "media": []
+  "admin": {
+    "username": "admin",
+    "password": "hashed_password"
+  },
+  "quest": [
+    {"id": 1, "title": "First Quest", "description": "Description here", "status": "active"}
+  ],
+  "factions": [
+    {"id": 1, "name": "Faction Name", "description": "Description here"}
+  ],
+  "herbarium": [
+    {"id": 1, "plant_name": "Rosemary", "description": "Medicinal plant", "image_url": ""}
+  ],
+  "announcements": [
+    {"id": 1, "title": "Welcome!", "content": "Site launched.", "date": "2024-06-01"}
+  ],
+  "media_pages": [
+    {"id": 1, "user": "user1", "image_url": "", "caption": "Photo caption", "upload_date": "2024-06-01"}
+  ]
 }
